@@ -1,0 +1,131 @@
+.titleContainer {
+  display: flex;
+  flex-direction: column;
+}
+.contentContainer {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  align-self: flex-start;
+}
+.form {
+  border-radius: 10px;
+  width: 300px;
+  margin-left: 30px;
+  box-shadow: 0px 3px 10px;
+  padding: 20px;
+}
+.nameContainer {
+  display: flex;
+  flex-direction: column;
+}
+.createPostHeading {
+  text-align: center;
+}
+.createPostContainer {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+
+  align-items: center;
+}
+.input {
+  margin-top: 5px;
+  height: 30px;
+  border-style: solid;
+  border-radius: 3px;
+  border-width: 1px;
+}
+.submitButton {
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: #ffffff;
+  padding: 8px 16px;
+  margin-top: 20px;
+  margin-bottom: 2px;
+  background-color: #0284c7;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.btnCont {
+  display: flex;
+  justify-content: space-between;
+}
+.image {
+  height: 400px;
+  margin-left: 20px;
+}
+.createPostHeading {
+  font-family: Bree Serif;
+  font-size: 38px;
+  color: #1e293b;
+}
+.content {
+  margin-top: 5px;
+  font-family: roboto;
+  font-size: 14px;
+  padding: 3px;
+}
+label {
+  color: #475569;
+  font-family: Roboto;
+  font-weight: 500;
+  margin-top: 20px;
+}
+input {
+  font-family: roboto;
+  font-size: 14px;
+  padding: 3px;
+}
+.submit-button {
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: #ffffff;
+  padding: 8px 16px;
+  margin-top: 20px;
+  margin-bottom: 2px;
+  background-color: #ea580c;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.success-image {
+  height: 100px;
+}
+.errorMsg {
+  align-self: start;
+
+  margin-top: 1px;
+  margin-bottom: 0px;
+  font-family: 'Roboto';
+  font-size: 12px;
+  line-height: 16px;
+  color: #ff0b37;
+}
+.succesView {
+  display: flex;
+  border-radius: 10px;
+  height: 300px;
+  box-shadow: 0px 3px 8px;
+  width: 400px;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.feedback {
+  font-family: Roboto;
+  font-size: 28px;
+}
+.SuccessContainer {
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
